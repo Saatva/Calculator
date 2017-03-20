@@ -1,0 +1,47 @@
+.table { display: table; }
+.table-row { display: table-row; }
+.table-cell { display: table-cell; }
+
+.full { width: 100%; }
+.third { width: 33%; }
+
+body { background: #550000; font-size: 22px; }
+
+button {
+    color: #000;
+    background: #ccc;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 2em;
+    padding: .5em .5em .75em;
+    line-height: 1em;
+    width: 100%;
+    margin: .1em auto;
+}
+
+#main {
+    width: 36%;
+    height: 46%;
+    background: #666;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    padding: 2%;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1000px #333,
+        100px 100px 1000px #333,
+        -100px -100px 1000px #333,
+        -100px 100px 1000px #333,
+        100px -100px 1000px #333;
+}
+
+#opWindow {
+    background: green;
+    color: black;
+    text-align: right;
+    font-size: 2em;
+    padding: .1em 2%;
+    width: 96%;
+}
+
